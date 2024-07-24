@@ -3,7 +3,7 @@
 This work is published in *Journal name* (doi link)  
 This repository contains a collection of codebook that we use to analyze data and develope the models for PPGR prediction. 
 ## Introduction  
-Using data from 2 distinct cohorts totalling 88 participants, we developed an algorithmic framework, utilizing multi-modal deep learning predictor, to precisely predict individuals' post-prandial glycemic responses(PPGR).  
+Using data from **2 cohorts** totalling **88 participants**, we developed an algorithmic framework, utilizing multi-modal deep learning predictor, to precisely predict individuals' post-prandial glycemic responses(PPGR).  
 
 Our study workflow is consisted of 4 phases as follow.  
 (1) Data collection & analysis  
@@ -26,3 +26,11 @@ The tool was developed using the following dependencies:
 * umap 0.1.1.  
 * scikit-learn 1.4.1.   
 * shap 0.44.1.   
+
+## Data preparation
+The detailed data collection and preprocessing procedures are descripted in our **supplementary information** (doi link)  
+To replicate this implementation, you should prepare the following data:  
+1. Meal data including nutritional composition and meal timing
+2. CGM recording (Record must be included from 30 minutes before meal to 4 hours after meal)
+3. 16s microbiome data (taxonomical
+## Data analysis

@@ -25,12 +25,20 @@ The tool was developed using the following dependencies:
 * xgboost 1.7.6.   
 * umap 0.1.1.  
 * scikit-learn 1.4.1.   
-* shap 0.44.1.   
+* shap 0.44.1.
+* PyComplexHeatmap 1.6.2.  
 
 ## Data preparation
 The detailed data collection and preprocessing procedures are descripted in our **supplementary information** (doi link)  
 To replicate this implementation, you should prepare the following data:  
-1. Meal data including nutritional composition and meal timing
-2. CGM recording (Record must be included from 30 minutes before meal to 4 hours after meal)
-3. 16s microbiome data (taxonomical
+1. Merged data (per meal) of *meal data* and *CGM recording* 
+    1. *Meal data* including nutritional composition and meal timing
+    2. *CGM recording* (Record must be included from 30 minutes before meal to 4 hours after meal)
+2. 16s microbiome data (taxonomic mapped read count profile)
+3. clinico demographic data (e.g., Age, BMI, HbAc1)
+4. medication usage
+
 ## Data analysis
+All code related to data analysis is under <code>./code/data_analysis.jpynb</code>.
+The data analysis process consists of two stages:  
+### 1. Risk factor analysis  

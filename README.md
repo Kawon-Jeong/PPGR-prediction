@@ -12,7 +12,7 @@ Our study workflow is consisted of 4 phases as follow.
 (4) Model interpretation  
 
 Our codebook open the code for data analysis (risk factor analysis and subgroup analysis) and DNN model development, evaluation and interpretation.
-![workflow](https://github.com/user-attachments/assets/c6256326-1142-413d-b78c-e2a05846afdc)
+![workflow](https://github.com/user-attachments/assets/793a808c-5b2c-4a46-ab9b-549d5509ab79)
 
 ## Prerequisites
 The tool was developed using the following dependencies: 

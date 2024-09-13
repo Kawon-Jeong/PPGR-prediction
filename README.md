@@ -1,4 +1,4 @@
-# Enhancing Glycemic Management in Type 2 Diabetes with a Comprehensive Deep Learning Approach for Accurate Post-Prandial Glycemic Response Prediction
+# Enhanced Post-Prandial Glycemic Response Prediction in Type 2 Diabetes with a Comprehensive Deep Learning Approach.
 
 This work is published in *Journal name* (doi link)  
 This repository contains a collection of codebook that we use to analyze data and develope the models for PPGR prediction. 
@@ -39,6 +39,6 @@ To replicate this implementation, you should prepare the following data:
 4. medication usage
 
 ## Data analysis
-All code related to data analysis is under <code>./code/data_analysis.jpynb</code>.
 The data analysis process consists of two stages:  
-### 1. Risk factor analysis  
+### 1. Causal inference analysis
+All code related to Causal inference analysis is under <code>./code/causal_inference_analysis.jpynb</code>.
